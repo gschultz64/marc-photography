@@ -5,9 +5,9 @@ import Layout from '../components/layout'
 
 const Store = () => (
   <Layout>
-    <h1>Hi from the store page</h1>
+  <h1>Hi from the store page</h1>
     < Checkout />
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/" > Go back to the homepage < /Link>
   </Layout>
 )
 
