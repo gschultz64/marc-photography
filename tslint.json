@@ -1,0 +1,13 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-eslint-rules" // https://github.com/buzinas/tslint-eslint-rules
+  ],
+  "rulesDirectory": ["node_modules/tslint-eslint-rules/dist/rules"],
+  "jsRules": {},
+  "rules": {
+    "ter-indent": [true, 2],
+    "quotemark": [true, "single"]
+  }
+}
