@@ -1,14 +1,14 @@
-import React from 'react'
-import { Link } from 'gatsby'
-
-import Layout from '../components/layout'
-
-const Store = () => (
-  <Layout>
-    <h1>Hi from the store page</h1>
-    < Checkout />
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
-
-export default Store
+"use strict";
+exports.__esModule = true;
+var checkout_1 = require("../components/checkout");
+var Store = function () { return Hi; }, from, the, store, page;
+/h1>
+    < checkout_1["default"] /  >
+    to;
+"/" > Go;
+back;
+to;
+the;
+homepage < /Link>
+    < /Layout>;
+exports["default"] = Store;

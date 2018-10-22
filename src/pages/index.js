@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Checkout from '../components/checkout'
 import Layout from '../components/layout'
 
 const IndexPage = () => (
