@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 const Footer = ({ siteTitle }) => (
   <footer style={ {background: 'orange'} }>
-    yo my footer hurts
+    <p>This is the footer</p>
   </footer>
 )
 

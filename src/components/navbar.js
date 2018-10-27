@@ -3,8 +3,9 @@ import { Link } from 'gatsby'
 
 const Navbar = ({ siteTitle }) => (
   <nav style={styles.nav}>
-    <Link to='/'>Home</Link>
-    <Link to='/test'>Test</Link>
+    <Link to='/test' style={styles.navLink}>Home</Link>
+    <Link to='/' style={styles.navLink}>About</Link>
+    <Link to='/test' style={styles.navLink}>Store</Link>
   </nav>
 )
 
@@ -13,7 +14,13 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     width: '15vw',
-    background: 'yellow'
+    background: 'rgb(219, 178, 208)',
+    paddingTop: '1em',
+    paddingLeft: '1em'
+  },
+  navLink: {
+    marginBottom: '1em',
+    textDecoration: 'none',
   }
 }
 

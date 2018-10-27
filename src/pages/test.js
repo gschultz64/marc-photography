@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 
 const Test = () => (
   <Layout>
-    <h1>Testtesttest</h1>
-    <p>heres the test page </p>
+    <h1>Test Page Title</h1>
+    <p>Here is the test page </p>
   </Layout>
 )
 

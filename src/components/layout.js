@@ -60,7 +60,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
-    minHeight: '87vh'
+    minHeight: '88vh'
   },
   children: {
     width: '85vw',
