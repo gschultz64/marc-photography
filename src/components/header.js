@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Navigation from './navigation'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -26,6 +27,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <Navigation/>
     </div>
   </div>
 )
